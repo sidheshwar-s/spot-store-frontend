@@ -6,4 +6,6 @@ COPY . .
 
 RUN npm install 
 
+ENV DANGEROUSLY_DISABLE_HOST_CHECK=true
+
 CMD ["npm", "run", "dev" ]
