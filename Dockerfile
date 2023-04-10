@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install 
 
-ENV DANGEROUSLY_DISABLE_HOST_CHECK=true
+ENV HOST=spotstore.onrender.com
 
 CMD ["npm", "run", "dev" ]
