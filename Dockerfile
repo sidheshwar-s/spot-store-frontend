@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install 
 
-ENV HOST=spotstore.onrender.com
+ENV HOST=vitspot-store.onrender.com
 
 CMD ["npm", "run", "dev" ]
