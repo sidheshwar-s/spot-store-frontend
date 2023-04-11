@@ -8,4 +8,6 @@ RUN npm install
 
 ENV HOST=vitspot-store.onrender.com
 
+EXPOSE 3000
+
 CMD ["npm", "run", "dev" ]
